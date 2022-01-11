@@ -13,7 +13,7 @@
   color: rgb(34, 34, 34);
   text-align: center;
   height: 120px;
-  width: 200px;
+  width: 275px;
   display: flex;
   align-items: center;
   border: none !important;
@@ -62,4 +62,13 @@
 
 .nav-link.active ~ .right__triangle{
   border-left:10px solid #0770A6;
+}
+
+.wrapper{
+  margin: 0 auto;
+}
+
+.nav-tabs{
+  width: 100%;
+  
 }
