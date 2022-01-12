@@ -8,16 +8,22 @@
   color: #fff;
 }
 
+.nav-link:hover span{
+  color: #fff;
+}
+
+.nav-link.active span{
+  color: #fff;
+}
 .nav-link{
   font-weight: 500;
-  color: rgb(34, 34, 34);
+  color: rgb(51, 51, 51);
   text-align: center;
-  height: 120px;
+  height: 150px;
   width: 275px;
-  display: flex;
-  align-items: center;
+  flex-direction: column;
   border: none !important;
-  justify-content: center;
+
 }
 
 .nav-item{
@@ -41,7 +47,8 @@
 } */
 
 .tab-content{
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .right__triangle {
@@ -52,7 +59,7 @@
   border-left: 10px solid #fff;
   position: absolute;
   right: -10px;
-  top: 50px;
+  top: 70px;
   z-index: 1;
 }
 
@@ -71,4 +78,11 @@
 .nav-tabs{
   width: 100%;
   
+}
+
+.nav-link span{
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0 auto;
+  color: rgb(56, 56, 56);
 }
